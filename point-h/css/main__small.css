@@ -321,9 +321,6 @@ a {
   font-size: 16px;
   text-align: center;
   width: 50%; }
-  .point__button:hover, .point__button:active {
-    background-color: #009ee3;
-    color: #fff; }
   .point__button_bordered {
     background-color: transparent;
     border: 1px solid #283480;
