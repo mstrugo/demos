@@ -49,8 +49,17 @@
 /**
 * Section - Benefits
 */
-.point__section_benefits .point__benefits_benefit {
-  padding: 0 12px; }
+.point__section_benefits {
+  padding: 112px 0 55px; }
+  .point__section_benefits .point__benefits_benefit {
+    padding: 0 12px;
+    width: 28%;
+    margin: 0 2.5%; }
+  .point__section_benefits .point__benefits_header {
+    margin-bottom: 15px;
+    padding: 0 30px; }
+  .point__section_benefits .point__benefits_description {
+    font-size: 18px; }
 
 /**
 * Section - Calculator
@@ -182,7 +191,8 @@
     padding: 112px 0 92px; }
     .point__section_benefits .point__benefits_benefit {
       padding: 0 12px;
-      width: 23%; }
+      width: 23%;
+      margin: 0 4%; }
       .point__section_benefits .point__benefits_benefit .point__icon {
         margin-bottom: 23px; }
     .point__section_benefits .point__benefits_header {
