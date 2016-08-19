@@ -662,15 +662,6 @@ a {
   .nav-cta--button a {
     color: #fff; }
 
-@media (min-width: 767px) {
-  .nav-cta--button,
-  .nav-cta--price {
-    display: block; } }
-
-@media (min-width: 1023px) {
-  .nav-cta--item {
-    display: block; } }
-
 /* Footer
 ------------------------------------------*/
 .ly-footer {
@@ -698,7 +689,9 @@ a {
     border-top: 1px solid #d2d9e0; }
     .ly-footer .ly-footer-access-links {
       overflow: auto;
-      padding: 15px 0; }
+      padding: 15px 0;
+      max-width: 1280px;
+      margin: 0 auto; }
   .ly-footer .ch-g1-5 {
     display: block;
     vertical-align: top;
@@ -752,12 +745,6 @@ a {
 #footer-trigger:checked + .ly-footer-control + .ly-footer-access,
 #footer-trigger:checked .ly-footer-access {
   max-height: 300px; }
-
-@media screen and (min-width: 768px) {
-  .ly-footer .ch-g1-5 {
-    text-align: left;
-    width: 30%;
-    padding: 15px 30px; } }
 
 /*
 * Payment component

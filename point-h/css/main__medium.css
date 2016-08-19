@@ -36,6 +36,10 @@
   .point__payments_payment-methods .paymentmethod-large {
     width: 10%; }
 
+.nav-cta--button,
+.nav-cta--price {
+  display: block; }
+
 /**
 * Sections
 *********************************************/
@@ -160,10 +164,17 @@
 .ly-footer .ly-footer-legal {
   padding-bottom: 20px; }
 
+.ly-footer .ch-g1-5 {
+  text-align: left;
+  width: 30%;
+  padding: 15px 30px; }
+
 /**
  * Landscape media querys
  *********************************************/
 @media only screen and (min-width: 1024px) {
+  .nav-cta--item {
+    display: block; }
   .point__section_hero {
     height: 520px; }
     .point__section_hero .point__content_details-a {
