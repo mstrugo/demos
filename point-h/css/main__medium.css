@@ -1,0 +1,267 @@
+/*
+    _main__medium.scss
+
+    In this file you can import all partials that are necessary for the medium version
+ */
+/**
+ * Components
+ *********************************************/
+.point__section h1,
+.point__section h2 {
+  font-size: 36px; }
+
+.point__section h3 {
+  font-size: 16px; }
+
+.point__section p {
+  font-size: 15px; }
+
+.point__price {
+  font-size: 36px; }
+
+.point__button {
+  width: 170px;
+  line-height: 50px;
+  -webkit-border-radius: 2px;
+          border-radius: 2px; }
+
+.point__button_fixed {
+  display: none; }
+
+.point__button_bordered {
+  padding: 0; }
+
+.point__payments_payment-methods {
+  max-width: 625px; }
+  .point__payments_payment-methods .paymentmethod-large {
+    width: 10%; }
+
+/**
+* Sections
+*********************************************/
+/**
+* Section - Hero
+*/
+.point__section_hero {
+  height: 728px; }
+  .point__section_hero .point__content_details-a {
+    margin: 20px 0 10px; }
+  .point__section_hero .point__services {
+    margin: 0 25px; }
+    .point__section_hero .point__services .point__services_service {
+      width: 155px;
+      float: right;
+      text-align: right; }
+    .point__section_hero .point__services .point-icon-svg-ios,
+    .point__section_hero .point__services .point-icon-svg-android {
+      display: block;
+      width: 50px;
+      float: left;
+      text-align: left; }
+  .point__section_hero .point__price_discount {
+    margin-bottom: 50px; }
+  .point__section_hero .point__button {
+    display: block;
+    margin-bottom: 100px; }
+
+/**
+* Section - Benefits
+*/
+.point__benefits {
+  padding: 60px 0; }
+  .point__benefits_benefit {
+    width: 28%;
+    vertical-align: top;
+    margin: 0 2%; }
+  .point__benefits_description {
+    padding: 0; }
+
+/**
+* Section - Calculator
+*/
+.point__section_calculator {
+  padding: 64px 0 100px; }
+  .point__section_calculator .point__content_title {
+    margin: 0 20% 37px; }
+  .point__section_calculator .point__content_subtitle {
+    float: left;
+    width: 100px;
+    text-align: left; }
+  .point__section_calculator .point__calculator_content {
+    padding: 0 0 0 145px;
+    text-align: left;
+    float: left;
+    width: 84%; }
+    .point__section_calculator .point__calculator_content .point__values_value {
+      font-size: 56px; }
+  .point__section_calculator .point__content_details-product {
+    margin-top: 0px;
+    background-position: center top; }
+  .point__section_calculator .point__button {
+    margin-bottom: 50px; }
+
+/**
+* Section - Payments
+*/
+.point__section_payments {
+  padding: 335px 0 64px; }
+  .point__section_payments .point__content_title {
+    margin: 0 15%; }
+
+/**
+* Section - Markets
+*/
+.point__section_markets .point__content {
+  float: right;
+  width: 40%; }
+
+.point__section_markets .point__content_title,
+.point__section_markets .point__content_text {
+  width: 84%;
+  margin: 0;
+  text-align: left; }
+
+.point__section_markets .point__content_text {
+  margin: 16px 30px 31px 0; }
+
+.point__section_markets .point__markets_container {
+  width: 280px;
+  margin-left: 0; }
+  .point__section_markets .point__markets_container .point__markets_rating {
+    width: 90%; }
+  .point__section_markets .point__markets_container .point__markets_rating-star {
+    margin-right: 5px; }
+
+.point__section_markets .point__markets_app-preview {
+  float: left;
+  width: 55%;
+  -webkit-background-size: auto 525px;
+          background-size: auto 525px;
+  margin-top: 0;
+  height: 620px;
+  background-position: bottom right; }
+
+/**
+* Section - Support
+*/
+.point__section_support {
+  clear: both;
+  padding: 56px 105px 80px; }
+  .point__section_support .point__icon_helper {
+    float: left; }
+  .point__section_support .point__help {
+    margin: 0;
+    line-height: 28px;
+    padding: 0; }
+
+/**
+* Section - Footer
+*/
+.ly-footer .ly-footer-legal {
+  padding-bottom: 20px; }
+
+/**
+ * Landscape media querys
+ *********************************************/
+@media only screen and (min-width: 1024px) {
+  .point__section_hero {
+    height: 520px; }
+    .point__section_hero .point__content_details-a {
+      float: left;
+      width: 60%; }
+    .point__section_hero .point__content_details-b {
+      float: right;
+      width: 40%;
+      margin-top: 54px;
+      text-align: left;
+      padding: 0 70px 0 0; }
+    .point__section_hero .point__price_discount {
+      margin-bottom: 67px; }
+    .point__section_hero .point__button {
+      margin: 0; }
+    .point__section_hero .point__services {
+      clear: both; }
+    .point__section_hero .point__content_details-product {
+      height: 436px;
+      -webkit-background-size: auto 464px;
+              background-size: auto 464px;
+      background-position: center center; }
+  .point__section_benefits .point__benefits_benefit {
+    width: 25%;
+    margin: 0 4%;
+    padding: 0 4px; }
+  .point__section_calculator {
+    height: 400px; }
+    .point__section_calculator .point__calculator_header {
+      float: left;
+      width: 286px;
+      text-align: left; }
+    .point__section_calculator .point__content_title {
+      margin: 0 0 45px; }
+    .point__section_calculator .point__button {
+      margin: 0 30px; }
+    .point__section_calculator .point__calculator {
+      float: right;
+      width: 70%; }
+    .point__section_calculator .point__calculator_content {
+      padding: 0 0 0 80px; }
+    .point__section_calculator .point__content_details-product {
+      width: 45%;
+      right: 0;
+      margin-top: 240px; }
+  .point__section_payments {
+    padding: 60px 0 100px;
+    height: 530px; }
+    .point__section_payments .point__content {
+      float: left;
+      text-align: left; }
+    .point__section_payments .point__content_title {
+      margin: 0 42px;
+      padding: 0;
+      width: 50%; }
+    .point__section_payments .point__payments_payment-methods {
+      margin-left: 42px; }
+  .point__section_markets .point__content_title {
+    width: 64%;
+    line-height: 1.1; }
+  .point__section_markets .point__content_text {
+    width: 84%; }
+  .point__section_markets .point__markets_container {
+    width: 180px;
+    margin-left: 0;
+    float: left;
+    padding: 23px 0; }
+    .point__section_markets .point__markets_container .point__markets_rating {
+      width: 100%; }
+    .point__section_markets .point__markets_container .point__markets_rating-star {
+      margin-right: 0;
+      width: 100%;
+      float: none;
+      margin: 0 auto;
+      margin-bottom: 11px; }
+  .point__section_markets .point__markets_score {
+    margin-bottom: 30px; }
+  .point__section_markets .point__markets_app-preview {
+    width: 55%;
+    height: 460px; } }
+  @media only screen and (min-width: 1024px) and (-webkit-max-device-pixel-ratio: 1.5), only screen and (min-width: 1024px) and (-webkit-max-device-pixel-ratio: 1.9895833333333333), only screen and (min-width: 1024px) and (max-resolution: 191dpi), only screen and (min-width: 1024px) and (-webkit-max-device-pixel-ratio: 1.9), only screen and (min-width: 1024px) and (max-resolution: 1.9dppx) {
+    .point__section_markets .point__markets_app-preview {
+      background: url("../images/product_image_app_large@1x.png") no-repeat right center transparent;
+      -webkit-background-size: auto 590px;
+              background-size: auto 590px; } }
+  @media only screen and (min-width: 1024px) and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-width: 1024px) and (-webkit-min-device-pixel-ratio: 2), only screen and (min-width: 1024px) and (min-resolution: 192dpi), only screen and (min-width: 1024px) and (min-resolution: 2dppx) {
+    .point__section_markets .point__markets_app-preview {
+      background: url("../images/product_image_app_large@2x.png") no-repeat right center transparent;
+      -webkit-background-size: auto 590px;
+              background-size: auto 590px; } }
+  @media only screen and (min-width: 1024px) and (-webkit-min-device-pixel-ratio: 2.6), only screen and (min-width: 1024px) and (-webkit-min-device-pixel-ratio: 3), only screen and (min-width: 1024px) and (min-resolution: 288dpi), only screen and (min-width: 1024px) and (min-resolution: 3dppx) {
+    .point__section_markets .point__markets_app-preview {
+      background: url("../images/product_image_app_large@3x.png") no-repeat right center transparent;
+      -webkit-background-size: auto 590px;
+              background-size: auto 590px; } }
+
+@media only screen and (min-width: 1024px) {
+  .point__section_markets .point__markets_container-lite {
+    padding: 80px 20px; }
+  .point__section_support {
+    padding: 56px 215px 80px; } }

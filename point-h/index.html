@@ -32,6 +32,10 @@
       <meta name="google-site-verification" content="google6c23d535df133a85" />
   
       <link type="text/css" rel="stylesheet" href="css/main__small.css" />
+      
+      <link type="text/css" rel="stylesheet" href="css/main__medium.css" media="only screen and (min-width: 768px)" />
+      
+      <link type="text/css" rel="stylesheet" href="css/main__large.css" media="only screen and (min-width: 1025px)" />
   
       <link rel="shortcut icon"    href="https://http2.mlstatic.com/ui/navigation/1.5.2/mercadopago/favicon.ico">
       <link rel="apple-touch-icon" href="https://http2.mlstatic.com/ui/navigation/1.5.2/mercadopago/60x60-precomposed.png"/>
@@ -100,13 +104,16 @@
                 <span class="point__price_oldPrice">12 x R$ 334.1</span>
                 <span class="point__bubble point__price_discount-bubble">16% OFF</span>
               </span>
+        
+              <a href="/lector-tarjetas-credito-point/comprar" target="_blank" class="point__button" role="button" data-tracking="comprar_hero" title="Comprar">Comprar</a>
+        
             </div>
         
-            <a href="/lector-tarjetas-credito-point/comprar" target="_blank" class="point__button" role="button" data-tracking="comprar_hero" title="Comprar">Comprar</a>
-        
             <ul class="point__services">
-              <li class="point__services_service point-icon-svg-warranty">1 año de garantía</li>
-              <li class="point__services_service point-icon-svg-shipping">Envío gratis</li>
+              <li class="point__services_service point__icon point-icon-svg-android"></li>
+              <li class="point__services_service point__icon point-icon-svg-ios"></li>
+              <li class="point__services_service point__icon point-icon-svg-shipping">Envío gratis</li>
+              <li class="point__services_service point__icon point-icon-svg-warranty">1 año de garantía</li>
             </ul>
         
           </div>
@@ -142,7 +149,12 @@
         <!-- CALCULATOR  -->
         <article class="point__section_calculator" id="calculator">
           <div class="point__content">
-            <h2 class="point__content_title">Aproveite as tarifas mais competitivas do mercado</h2>
+        
+            <div class="point__calculator_header">
+                <h2 class="point__content_title">Aproveite as tarifas mais competitivas do mercado</h2>
+                <a class="point__button point__button_bordered" href="#calc">Calcular tasas</a>
+            </div>
+        
             <div class="point__calculator">
         
               <section class="point__calculator_row">
@@ -181,7 +193,7 @@
               </section>
         
             </div>
-            <a class="point__button point__button_bordered" href="#calc">Calcular tasas</a>
+        
             <i class="point__content_details-product"></i>
           </div>
         </article>
@@ -214,35 +226,57 @@
         </article>
         <!-- Markets -->
         <article class="point__section_markets" id="markets">
-            <h2 class="point__content_title">Conecte-se com a sua empresa</h2>
-            <p class="point__content_text">Leve a seu negócio a todas as partes usando bluetooth e internet com a app de Mercado Pago</p>
+            <div class="point__content">
+                <h2 class="point__content_title">Conecte-se com a sua empresa</h2>
+                <p class="point__content_text">Leve a seu negócio a todas as partes usando bluetooth e internet com a app de Mercado Pago</p>
         
-            <div class="point__markets_gplay">
-                <i class="point__icon point-icon-svg-google-play"></i>
-                <div class="point__markets_score">4.2</div>
+                <div class="point__markets_container point__markets_container-full point__markets_container-android">
+                    <i class="point__icon point-icon-svg-google-play"></i>
+                    <div class="point__markets_score">4.2</div>
         
-                <div class="point__markets_rating">
-                    <div class="point__markets_rating-star point-icon-svg-star">
-                        <div class="point__icon point-icon-svg-star-yellow" style="width: 84%"></div>
-                    </div>
-                    <div class="point__markets_rating-reviews">
-                        <span class="point__markets_rating-reviews-text">2072 comentários</span>
-                    </div>
-                </div>
-            </div>
-        
-            <div class="point__markets_ios">
-                <div class="point__markets_rating">
-                    <div class="point__markets_rating-reviews">
-                        <span class="point__markets_rating-reviews-text">Também disponível para iOS</span>
+                    <div class="point__markets_rating point__markets_rating">
+                        <div class="point__markets_rating-star point-icon-svg-star">
+                            <div class="point__icon point-icon-svg-star-yellow" style="width: 84%"></div>
+                        </div>
+                        <div class="point__markets_rating-reviews">
+                            <span class="point__markets_rating-reviews-text">2072 comentários</span>
+                        </div>
                     </div>
                 </div>
-                <i class="point__icon point-icon-svg-app-store"></i>
-            </div>
         
-            <div class="point__markets_app-preview">
+                <div class="point__markets_container point__markets_container-full point__markets_container-ios">
+                    <i class="point__icon point-icon-svg-app-store"></i>
+                    <div class="point__markets_score">4</div>
         
+                    <div class="point__markets_rating point__markets_rating">
+                        <div class="point__markets_rating-star point-icon-svg-star">
+                            <div class="point__icon point-icon-svg-star-yellow" style="width: 84%"></div>
+                        </div>
+                        <div class="point__markets_rating-reviews">
+                            <span class="point__markets_rating-reviews-text">2326 comentários</span>
+                        </div>
+                    </div>
+                </div>
+        
+                <div class="point__markets_container point__markets_container-lite point__markets_container-android">
+                    <div class="point__markets_rating">
+                        <div class="point__markets_rating-reviews">
+                            <span class="point__markets_rating-reviews-text">Também disponível para Android</span>
+                        </div>
+                    </div>
+                    <i class="point__icon point-icon-svg-google-play"></i>
+                </div>
+        
+                <div class="point__markets_container point__markets_container-lite point__markets_container-ios">
+                    <div class="point__markets_rating">
+                        <div class="point__markets_rating-reviews">
+                            <span class="point__markets_rating-reviews-text">Também disponível para iOS</span>
+                        </div>
+                    </div>
+                    <i class="point__icon point-icon-svg-app-store"></i>
+                </div>
             </div>
+            <i class="point__markets_app-preview"></i>
         </article>
         <!-- SUPPORT  -->
         <article class="point__section_support" id="support">
@@ -254,7 +288,7 @@
           </p>
         
         </article>
-        <a href="/comprar" target="_blank" class="point__button point__button_fixed" role="button">Comprar</a>
+        <a href="/comprar" target="_blank" class="point__button point__button_fixed" role="button" data-tracking="comprar_fixed_button" title="Comprar">Comprar</a>
 
       </section>
     </main>
